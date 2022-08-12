@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 170px;
+    height: 400px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.title {
+    height: 80px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.lampOff {
+    border-radius: 100%;
+    width: 170px;
+    height: 189px;
+    background-image: url("/assets/img/LampadaApagada.jpg");
+    background-position: center;
+} 
+
+.lampOn {
+    border-radius: 100%;
+    width: 170px;
+    height: 189px;
+    background-image: url("/assets/img/LampadaLigada.jpg");
+    background-size: cover;
+    background-position: center;
+} 
+
+.lampBroken {
+    border-radius: 100%;
+    width: 170px;
+    height: 189px;
+    background-image: url("/assets/img/LampadaQuebrada.jpg");
+    background-size: cover;
+    background-position: center;
+} 
